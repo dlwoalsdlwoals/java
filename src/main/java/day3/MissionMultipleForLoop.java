@@ -13,7 +13,6 @@ public class MissionMultipleForLoop {
             }
             System.out.println();
         }
-
     }
 }
 
