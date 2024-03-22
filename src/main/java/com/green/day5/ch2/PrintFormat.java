@@ -2,6 +2,18 @@ package com.green.day5.ch2;
 
 public class PrintFormat {
     public static void main(String[] args) {
+
+        /*
+        %d -> 정수 : byte, short, int, long
+        %s -> 문자열 : String, "작성한 값"
+        %f -> 실수 : float, double
+        %b -> 불린 : boolean
+        %c -> 문자 : char
+         */
+
+
+
+
         char c = 'A';
         int finger = 10;
         //리터럴 정수는 int타입

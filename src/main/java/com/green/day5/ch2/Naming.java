@@ -10,7 +10,7 @@ public class Naming {
         //1.대소문자가 구분, 길이 제한x
         int abc, Abc, aBc, abC;
         int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa;
-        //2.예약어 사용금지 ex) int public; , int void;
+        //2.예약어(파란색) 사용금지 ex) int public; , int void;
         int string; // 가능은 하나 사용x
 
         //3.숫자로 시작 x ex) int 1abc;/숫자가 첫글자만 아니면 ㄱㅊ
@@ -18,9 +18,13 @@ public class Naming {
         //5.여러 단어로 구성된 이름은 카멜 케이스 기법을 사용한다.
         //  ex) last, index, of >>>>> lastIndexOf
         //      string, buffer >>>>> stringBuffer
+        //6. 케밥 케이스 기법 (자바에선 안씀)
+        // happy-sunday-morning
+        //7. 스네이크 케이스 기법
+        //happy_sunday_morning
 
         //<클래스 명명규칙>
-        //1. 클래스 이름의 첫 글자는 무조건 대문자로 시작 !
+        //1. 클래스 이름의 첫 글자는 무조건 대문자로 시작 !!!
         //2. 여러 단어로 구성된 이름은 첫 글자를 모두 대문자로 한다.
         //ex) last, index, of >>>>> LastIndexOf
         //    string, buffer >>>>> StringBuffer
