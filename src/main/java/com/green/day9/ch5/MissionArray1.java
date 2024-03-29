@@ -6,9 +6,14 @@ public class MissionArray1 {
         /*
         for문 활용
         10,20,30,40, 출력
+
          */
-        for (int i=0; i<numArr.length; i++) {
-            System.out.print(numArr[i] + ", ");
+        for (int i = 0; i < numArr.length; i++) {
+            System.out.print(numArr[i]);
+            if(i != numArr.length -1)
+                System.out.print(", ");
+            }
         }
     }
-}
+
+
